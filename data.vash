@@ -1,0 +1,8 @@
+<ul class="json-list">
+	@model.docs.forEach(function(doc){
+		@{var str = JSON.stringify(doc, '', '\t')}
+		<li>
+			<pre>@str</pre>
+		</li>
+	})
+</ul>

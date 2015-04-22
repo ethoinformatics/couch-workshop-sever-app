@@ -1,0 +1,17 @@
+{
+  "name": "couch-workshop-server-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.3",
+    "node-lessify": "0.0.10",
+    "pouchdb": "^3.4.0",
+    "vashify": "^0.4.0"
+  }
+}
