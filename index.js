@@ -2,7 +2,7 @@ require('./index.less');
 
 var dataTmpl = require('./data.vash');
 var Pouch = require('pouchdb');
-var db = new Pouch('some_db2');
+var db = new Pouch('some_db3');
 var $ = require('jquery');
 
 function renderDocs(){
